@@ -4,7 +4,7 @@ public class Division implements MathOperation {
         if (right != 0) {
             return left / right;
         } else {
-            throw new IllegalArgumentException("Cannot divide by zero!");
+            throw new IllegalArgumentException("This is very wrong, dividing by zero");
         }
     }
 }
